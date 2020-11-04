@@ -40,18 +40,20 @@ export default function Portfolio() {
                   A sample of a few things we worked on in the bootcamp:
               </p>
           </div>
+
+
           <div className="col-lg-12 text-dark">
               <div className="row">
                   <div className="col-lg mb-4">
                       <div className="card h-100 text-center text-dark">
-                          <a href="https://cameronlay15.github.io/hw-06-weather-dash/" target="_card1">
-                              <img className="card-img-top p-2" src="./assets/forecast.png"
+                          <a href="https://cameronlay15.github.io/hw-06-weather-dash/" target="_card1" className="link">
+                              <img className="card-img-top p-2" src="/img/forecast.png"
                                   alt="Screenshot of weather dashboard"/>
                           </a>
                           <div className="card-body">
                               <h4 className="card-title">Weather Dashboard</h4>
                               <h6 className="card-subtitle mb-2">
-                                  <a href="https://cameronlay15.github.io/hw-06-weather-dash/" target="_card1p">
+                                  <a href="https://cameronlay15.github.io/hw-06-weather-dash/" target="_card1p" style={{color: "#343a40"}}>
                                       Homework 6
                                       <i className="fab fa-github"></i>
                                   </a>
@@ -59,10 +61,13 @@ export default function Portfolio() {
                               <p className="card-text">This project used local storage and a weather API</p>
                           </div>
                       </div>
+
+
+
                       <div className="col-lg mb-4">
                           <div className="card h-100 text-center text-dark">
                               <a href="https://cameronlay15.github.io/COGS-Inventory-Management/" target="_card2">
-                                  <img className="card-img-top p-2" src="./assets/COGS.png"
+                                  <img className="card-img-top p-2" src="/img/COGS.png"
                                       alt="Screenshot of scheduler"/>
                               </a>
                               <div className="card-body">
@@ -82,10 +87,13 @@ export default function Portfolio() {
                               </div>
                           </div>
                       </div>
+
+
+
                       <div className="col-lg mb-4">
                           <div className="card h-100 text-center text-dark">
                               <a href="https://crazyjoeshow.github.io/Happy-Camper/" target="_card3">
-                                  <img className="card-img-top p-2" src="./assets/project1.png"
+                                  <img className="card-img-top p-2" src="/img/project1.png"
                                       alt="Screenshot of Happy Campers"/>
                               </a>
                               <div className="card-body">
@@ -114,3 +122,4 @@ export default function Portfolio() {
     </section>
   )
 }
+

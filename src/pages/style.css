@@ -11,3 +11,6 @@ html {
   #cameron, #portfolio, #contactMe {
     min-height: 100vh;
   }
+
+  .bg-light{
+    background-image: url("/img/ignasi_pattern_s.png"); }
