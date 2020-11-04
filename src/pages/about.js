@@ -10,7 +10,7 @@ export default function About() {
         <div class="col-lg-6">
           <h1 class="mt-5">About Me</h1>
 
-          <Image src="/img/dh.jpg" rounded className="float-left" style={{padding: 5, alignSelf: 'flex-start'}} />
+          <Image src="/img/headshot.png" rounded className="float-left" style={{padding: 5, alignSelf: 'flex-start'}} />
 
             <div class="single-post-content-wrapper"> 
 
