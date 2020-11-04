@@ -11,6 +11,7 @@ export default function Contact() {
         <h1 className="mt-5">Contact Me</h1>
         <p>
           I can be found at:
+          
         </p><p>Email: <a href="mailto://cameronlay@gmail.com" style={{color: "#343a40"}}>cameronlay15@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/cameronlay/" style={{color: "#343a40"}}>https://www.linkedin.com/in/cameronlay/</a></p>
         <p>GitHub: <a href="https://github.com/cameronlay15" style={{color: "#343a40"}}>https://github.com/cameronlay15</a></p>
